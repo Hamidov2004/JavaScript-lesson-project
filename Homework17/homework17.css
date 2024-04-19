@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background_color{
+    width: 100%;
+    height: auto;
+    padding: 0px 0px 50px 0px;
+    background-color: rgba(147, 147, 147, 0.798);
+}
+
+.card{
+    margin-top: 70px;
+}
+
+.card-img-top{
+    width: 100%;
+    height: 230px;
+    object-fit: contain;
+}
+
+.new_div_class{
+    width: 100%;
+    height: 120px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    margin-bottom: 15px;
+    row-gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px;
+}
+
+.new_div_class img{
+    width: 140px;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 15px;
+}
+.new_div_class p{
+    font-family: sans-serif;
+    font-size: 17px;
+    color:  black;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
+.fa-solid{
+    color: rgb(34, 34, 34);
+}
+
+.link_text{
+    font-weight: 500;
+    border-radius: 8px;
+}
+.link_text:hover{
+    cursor: pointer;
+}
+
+.card{
+    border-radius: 15px;
+}
+
+
+
+.canculate_box{
+    width: 90px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 25px;
+    height: 30px;
+    font-weight: bolder;
+}
+
+.canculate_box button{
+    width: 30px;
+    font-weight: 800;
+}
+
+
+
+
+@media screen and (max-width: 576px){
+    .background_color{
+        width: 100%;
+        height: auto;
+        padding: 0px 0px 50px 0px;
+        background-color: rgba(147, 147, 147, 0.798);
+    }
+}
+
+@media screen and (min-width: 576px){
+    .background_color{
+        width: 100%;
+        height: auto;
+        padding: 0px 0px 50px 0px;
+        background-color: rgba(147, 147, 147, 0.798);
+    }
+}
+
+@media screen and (min-width: 768px){
+    .background_color{
+        width: 100%;
+        height: 100vh;
+        padding: 0px 0px 50px 0px;
+        background-color: rgba(147, 147, 147, 0.798);
+    }
+}
